@@ -1,7 +1,6 @@
-[gd_scene load_steps=20 format=4 uid="uid://q2ly4pnf0btu"]
+[gd_scene load_steps=19 format=4 uid="uid://q2ly4pnf0btu"]
 
 [ext_resource type="Texture2D" uid="uid://b58trst208g6y" path="res://assets/sprites/world_tileset.png" id="1_6nav4"]
-[ext_resource type="Script" path="res://scripts/knight.gd" id="2_73vlx"]
 [ext_resource type="PackedScene" uid="uid://b7tinvfqxp55a" path="res://scenes/player.tscn" id="2_ff1dx"]
 [ext_resource type="PackedScene" uid="uid://d5r6boh6sj8m" path="res://scenes/platform.tscn" id="4_f3776"]
 [ext_resource type="PackedScene" uid="uid://dqsbml44amss2" path="res://scenes/coin.tscn" id="5_go410"]
@@ -374,7 +373,6 @@ tile_set = SubResource("TileSet_12jg6")
 
 [node name="Player" parent="." instance=ExtResource("2_ff1dx")]
 position = Vector2(33, 30)
-script = ExtResource("2_73vlx")
 
 [node name="Camera2D" type="Camera2D" parent="Player"]
 zoom = Vector2(4, 4)
