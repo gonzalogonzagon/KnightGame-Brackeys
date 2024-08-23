@@ -478,6 +478,7 @@ libraries = {
 autoplay = "move_x_2"
 
 [node name="ParallaxBackground" type="ParallaxBackground" parent="."]
+visible = false
 
 [node name="ParallaxLayer" type="ParallaxLayer" parent="ParallaxBackground"]
 light_mask = 512
